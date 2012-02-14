@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IOIO Laser Turret</string>
+    <string name="out_high">ON</string>
+    <string name="out_low">OFF</string>
+    <string name="pan">Pan</string>
+    <string name="tilt">Tilt</string>
+    <string name="laser1">Laser 1</string>
+    <string name="laser2">Laser 2</string>
+    <string name="laser3">Dual Laser</string>
+
+</resources>

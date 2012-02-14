@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/layout_bg"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:text="@string/pan" >
+            </TextView>
+
+            <SeekBar
+                android:id="@+id/panSeekBar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:max="1000"
+                android:paddingLeft="5dip"
+                android:paddingRight="10dip"
+                android:progress="500" >
+            </SeekBar>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tilt" >
+            </TextView>
+
+            <SeekBar
+                android:id="@+id/tiltSeekBar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:max="1000"
+                android:paddingLeft="5dip"
+                android:paddingRight="10dip"
+                android:progress="500" >
+            </SeekBar>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/laser1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/laser1" />
+
+        <Button
+            android:id="@+id/laser2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/laser2" />
+
+        <Button
+            android:id="@+id/laser3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/laser3" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laser #1" >
+            </TextView>
+
+            <ToggleButton
+                android:id="@+id/ToggleButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/out_high"
+                android:textOff="@string/out_low"
+                android:textOn="@string/out_high" >
+            </ToggleButton>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laser #2" >
+            </TextView>
+
+            <ToggleButton
+                android:id="@+id/ToggleButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/out_high"
+                android:textOff="@string/out_low"
+                android:textOn="@string/out_high" >
+            </ToggleButton>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
